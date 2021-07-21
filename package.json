@@ -1,0 +1,29 @@
+{
+  "name": "msg-links",
+  "version": "1.0.0",
+  "description": "Discord service to share messages outside of Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacohitbox/msg-links.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-js",
+    "discord-messages"
+  ],
+  "author": "tacohitbox",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tacohitbox/msg-links/issues"
+  },
+  "homepage": "https://github.com/tacohitbox/msg-links#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1"
+  }
+}
