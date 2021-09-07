@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Message - MsgLinks</title>
+    <link href="/css/base.css" rel="stylesheet">
+    <link href="/css/message.css" rel="stylesheet">
+    <link href="/css/discord/message.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <a class="logolink" href="/"><h1 class="center logo">MsgLinks</h1></a>
+    <div class="full-msg-container">
+      <div id="message" class="message">
+        <div class="contents">
+          <img class="avatar">
+          <h2 class="header">
+            <span class="headerText">
+              <a class="username-link"><span class="username"></span></a>
+            </span>
+            <span class="timestamp"></span>
+          </h2>
+          <div class="content"></div>
+          <div class="attachments"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom center">
+      <p>
+        This was a message sent in the <span class="client">Discord</span>
+        server known as <span class="guild-name">[...]</span> in <span class="channel-name">#[...]</span>.
+      </p>
+      <div id="translate" class="require-js">
+        <div id="trans-load">
+          <p id="trans-loadtxt">Prepping translation tool...</p>
+          <img src="/load.gif">
+        </div>
+        <div id="trans-err" style="display:none;">
+          <p>Error prepping or using translation tool.</p>
+        </div>
+        <div id="trans-prep" style="display:none;">
+          <p>Not in your language? <button onclick="translate()">Translate</button> to <select id="trans-language"></select></p>
+        </div>
+        <div id="trans-done" style="display:none;">
+          <p>Not normal looking or what you were looking for? <button onclick="restore()">Restore it.</button></p>
+        </div>
+      </div>
+      <div class="footer">
+        <p>This code is licensed under <a href="https://github.com/tacohitbox/msg-links/blob/main/LICENSE">the Unlicense</a> - <a href="https://github.com/tacohitbox/msg-links">Source code</a> - <a href="/privacy">Privacy</a></p>
+      </div>
+    </div>
+  </body>
+  <script src="/js/appear.js"></script>
+  <script src="/js/translate.js"></script>
+</html>

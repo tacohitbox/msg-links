@@ -1,0 +1,57 @@
+body {
+  margin:0;
+  padding:0;
+  background:#282828;
+  color:white;
+  font-family:Helvetica, Verdana, Arial, sans-serif;
+}
+
+.logolink {
+  text-decoration:none;
+}
+
+a {
+  color:white;
+}
+
+.text-page {
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+}
+
+.hashed {
+  float:left;
+  width:100%;
+}
+
+.hashed .hash {
+  display:none;
+  color:rgb(153, 153, 153);
+  text-decoration:none;
+  float:left;
+  margin-right:5px;
+}
+
+.hashed:hover .hash, 
+.hashed:focus .hash,
+.hashed:focus-within .hash {
+  display:block;
+}
+
+.alt-background {
+  background:black;
+}
+
+.footer {
+  margin-top:10px;
+  text-align:center;
+}
+
+.center {
+  text-align:center;
+}
+
+.require-js {
+  display:none;
+}

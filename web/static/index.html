@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="/css/base.css" rel="stylesheet">
     <link href="/css/homepage.css" rel="stylesheet">
-    <title>MsgLinks - Discord Messages, outside of Discord</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>MsgLinks</title>  
   </head>
   <body>
-    <div class="modal">
-      <h2 class="center">MsgLinks</h2>
+    <div id="top" class="modal" style="margin-bottom:2.5vh">
+      <a class="logolink" href="/"><h1 class="center logo">MsgLinks</h1></a>
       <p class="center">
-        Discord service made to share Discord messages
-        outside of Discord.
+        Service made to share Discord and other messages
+        outside of their native apps.
       </p>
-      <a class="center invite" href="/invite" rel="noreferer">
-        <button class="center">Invite the bot</button>
+      <a class="center invite" href="/invite/discord" rel="noreferer">
+        <button class="center">Invite the bot to your Discord</button>
       </a>
+      <p class="center" style="margin-top:2px;"><span style="font-size:small;color:white;margin:0;">other services coming soon</span></p>
+    </div>
+    <div class="modal alt-background" id="whatis" style="padding-top:10px;padding-bottom:10px;">
+      <h2 class="center">How does it work?</h2>
+      <p class="center">You invite the bot to your server or community, configure your privacy settings, and start sending.</p>
+    </div>
+    <div class="bottom">
+      <div class="footer">
+        <p>This code is licensed under <a href="https://github.com/tacohitbox/msg-links/blob/main/LICENSE">the Unlicense</a> - <a href="https://github.com/tacohitbox/msg-links">Source code</a> - <a href="/privacy">Privacy</a></p>
+      </div>
     </div>
   </body>
 </html>
