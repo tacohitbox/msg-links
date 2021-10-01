@@ -81,6 +81,44 @@ body, p, .header {
   max-height:70vh;
 }
 
+.message .attachments .link-embed {
+  background:#2f3136;
+  color:#b9bbbe;
+  min-height:80px;
+  border-radius:4px;
+  padding:.5rem 1rem 1rem .75rem;
+}
+
+.message .attachments .link-embed .meta {
+  float:left;
+}
+
+.message .attachments .link-embed .link-provider {
+  font-size:0.75rem;
+  margin-top:8px;
+}
+
+.message .attachments .link-embed .link-title {
+  font-weight:600;
+  font-size:1rem;
+  margin-top:8px;
+}
+
+.message .attachments .link-embed .thumbnail {
+  float:left;
+  width:80px;
+  height:80px;
+  margin-left:16px;
+  margin-top:8px;
+}
+
+.message .attachments .link-embed .meta::after,
+.message .attachments .link-embed .thumbnail::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .message a {
   color:hsl(197,100%,47.8%);
   text-decoration:none;
